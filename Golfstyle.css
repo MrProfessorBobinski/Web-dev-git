@@ -1,0 +1,76 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #5ab45a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: Bold;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center;
+    text-decoration: none
+
+
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #566c57;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#anchor a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+.styled-div {
+    width: 200px;
+    height: 100px;
+    background-color: #ffa500; /* Orange background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    line-height: 100px; /* Vertically center text */
+    margin: 20px auto; /* Center horizontally with margin */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center-align text */
+}
+footer a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the text bold */
+}
